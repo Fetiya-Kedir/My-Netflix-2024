@@ -1,7 +1,4 @@
-// const API_KEY = process.env.REACT_APP_API_KEY; // Access the API key from environment variables
 const API_KEY = import.meta.env.VITE_API_KEY;
-// const API_KEY = '807005169f9ec414bbdb330fe9174287';
-
 const requests = {
 	fetchTrending: `/trending/all/week?api_key=${API_KEY}&language=en-US`,
 	fetchNetflixOriginals: `/discover/tv?api_key=${API_KEY}&with_networks=213`,
