@@ -12,6 +12,7 @@
     flex-direction: column;
     justify-content: center;
     padding: 20px;
+    overflow-x: hidden;
 }
 
 .banner_contents {

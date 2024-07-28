@@ -12,6 +12,7 @@
     transition-timing-function: ease-in;
     z-index: 1;
     background-color: black;
+    overflow-x: hidden;
 }
 
 .header_container {

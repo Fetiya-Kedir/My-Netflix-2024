@@ -4,6 +4,7 @@
     padding: 20px 0; 
     display: flex;
     justify-content: center;
+    overflow-x: hidden;
 }
 
 .footer_inner_container {
